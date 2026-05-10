@@ -1,11 +1,10 @@
-https://password-generator-vert-three.vercel.app/
+
+
 
 
 # 🔐 Password Generator (React)
 
-
-
-<img width="1862" height="775" alt="image" src="https://github.com/user-attachments/assets/717f25f4-1a44-43f2-a406-749ca3a871cd" />
+<img width="1400" height="720" alt="Recording 2026-05-10 at 03 17 32(2)" src="https://github.com/user-attachments/assets/c89584ed-dc8d-459c-98ca-3dd8f8824a1d" />
 
 
 Um gerador de senhas dinâmico e seguro desenvolvido em React. O projeto utiliza hooks como `useState` e `useEffect` para gerar senhas personalizadas instantaneamente conforme o usuário interage com os controles.
