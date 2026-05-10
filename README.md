@@ -22,7 +22,7 @@ Um gerador de senhas dinâmico e seguro desenvolvido em React. O projeto utiliza
 *   [React.js](https://reactjs.org/)
 *   [JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 *   [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-*   [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API) (Para funcionalidade de cópia)
+  
 
 ## 🧠 Aprendizados Técnicos
 
