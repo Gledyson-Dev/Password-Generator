@@ -1,18 +1,34 @@
-# React + Vite
+https://password-generator-vert-three.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🔐 Password Generator (React)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+<img width="1862" height="775" alt="image" src="https://github.com/user-attachments/assets/717f25f4-1a44-43f2-a406-749ca3a871cd" />
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
+Um gerador de senhas dinâmico e seguro desenvolvido em React. O projeto utiliza hooks como `useState` e `useEffect` para gerar senhas personalizadas instantaneamente conforme o usuário interage com os controles.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Funcionalidades
+
+- **Ajuste de Comprimento:** Escolha senhas de 4 a 64 caracteres.
+- **Dígitos Personalizados:** Controle a quantidade mínima de números na senha.
+- **Símbolos Personalizados:** Controle a quantidade de caracteres especiais.
+- **Atualização em Tempo Real:** Graças ao `useEffect`, a senha é regenerada automaticamente sempre que um parâmetro muda.
+- **Cópia Rápida:** Botão para copiar a senha gerada para a área de transferência.
+
+## 🛠️ Tecnologias Utilizadas
+
+*   [React.js](https://reactjs.org/)
+*   [JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+*   [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+*   [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API) (Para funcionalidade de cópia)
+
+## 🧠 Aprendizados Técnicos
+
+O foco principal deste projeto foi praticar o ciclo de vida de componentes React:
+- **useEffect:** Utilizado para monitorar as dependências `[passwordLength, digitLength, simbLength]`. Toda vez que o usuário move um slider, o hook dispara a lógica de geração.
+- **Hooks de Estado:** Gerenciamento fluido de múltiplos estados numéricos e strings.
+- **Lógica de Strings:** Manipulação de arrays e métodos como `sort(() => Math.random() - 0.5)` para garantir a aleatoriedade dos caracteres.
+
